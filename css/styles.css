@@ -1,0 +1,205 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.color-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+/* Download Buttons */
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image {
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  text-decoration: none;
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press */
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-image {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.h2-price {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: white;
+  color: black;
+}
+
+.card-title {
+  font-size: 2.0rem;
+}
+
+.btn-danger {
+  background-color: #ff4c68;
+}
+
+.btn-outline-danger {
+  border-color: #ff4c68;
+}
+
+/* Call To Action */
+
+/* Footer */
+
+#footer p {
+  font-size: 0.8rem;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+  color: black;
+}
+
+
+/* Mobile  */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  /* Hack to get rid of the tiny white horizontal line at the top */
+  #press {
+    position: relative;
+    z-index: 1;
+    top: -5px;
+  }
+}
